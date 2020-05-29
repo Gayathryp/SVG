@@ -1,0 +1,25 @@
+h1{
+  text-align: center;
+  color: royalblue;
+}
+@keyframes fall{
+   0%{
+       transform: skewY(13deg);
+   }
+   25%{
+       transform: skewY(20deg);
+   }
+   50%{
+       transform: skewY(30deg);
+   }
+   75%{
+       transform: skewY(20deg);
+   }
+   100%{
+       transform: skewY(13deg);
+   }
+}
+#mike{
+    animation: fall 3s infinite linear;
+    transform-origin: right;
+}
